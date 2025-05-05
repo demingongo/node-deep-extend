@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc && uglifyjs --compress --mangle --output index.min.js -- index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/demingongo/node-deep-extend/issues"
   },
-  "homepage": "https://github.com/demingongo/node-deep-extend#readme"
+  "homepage": "https://github.com/demingongo/node-deep-extend#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "uglify-js": "^3.19.3"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
 }
