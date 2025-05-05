@@ -12,6 +12,12 @@
     "url": "git+https://github.com/demingongo/node-deep-extend.git"
   },
   "author": "demingongo",
+  "keywords": [
+    "extend",
+    "clone",
+    "value",
+    "typebox"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/demingongo/node-deep-extend/issues"
